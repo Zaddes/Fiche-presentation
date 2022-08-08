@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 320px;
+    position: relative;
+}
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+/*HEADER*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.link-container {
+    display: none;
+}
+
+/*INTRO*/
+.intro {
+    padding: 15px;
+}
+.intro-details {
+ display: flex;
+}
+.intro-image {
+    background-image: url(./images/twitch.jpg);
+    width: 241px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    right: 30px;
+}
+.intro-stats {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: right;
+}
+.stat-box {
+    padding-bottom: 20px;
+}
+.stat-title {
+    font-weight: 900;
+}
+
+.firstP {
+    margin-bottom: 20px;
+}
+
+.gaming-categorie {
+    width: 290px;
+    height: 600px;
+    background-color: darkslategrey;
+    color:white;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    padding: 10px;
+}
+
+.carrousel-thrird {
+    display: none;
+}
+
+.carrousel-second {
+    display: none;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.carrousel-first {
+    margin: 15px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 290px;
+    height: auto;
+}
+
+h3 {
+    margin:30px;
+}
+
+.background-image-first {
+    background-image: url(./images/sponsor.jpg);
+    background-position: center;
+    height: 400px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column; 
+    position: relative;
+    color: white;
+}
+
+.grp-background {
+    width: 280px;
+    height: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+
+.text-bg {
+    margin: 20px;
+}
+
+.background-image-second {
+    background-image: url(./images/content_Zevent1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column; 
+    position: relative;
+    color: white;
+    margin-top:20px ;
+}
